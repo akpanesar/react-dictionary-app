@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <Dictionary defaultKeyword="sunset" />
+      <Dictionary defaultKeyword="pampas" />
     </div>
   );
 }
