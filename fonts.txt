@@ -1,3 +1,0 @@
-  font-family: "Rye", cursive;
-  font-family: "Twinkle Star", cursive;
-  font-family: "Work Sans", sans-serif;
