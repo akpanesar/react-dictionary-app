@@ -7,8 +7,12 @@ export default function Synonyms(props) {
         <strong>Similar:</strong>
         <ul>
           {props.synonyms.map(function (synonym, index) {
-            return <li key={index}>{synonym}</li>;
-          })}
+            if (index < 5) {
+              return <li key={index}>{synonym}</li>;
+            } else {
+              return null;
+            }
+          })}{" "}
         </ul>
       </div>
     );
