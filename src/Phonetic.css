@@ -1,0 +1,24 @@
+p {
+  font-size: 15px;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.Phonetic {
+  margin: 20px 0 0;
+}
+
+.Phonetic a {
+  margin-right: 15px;
+  line-height: 17px;
+  padding: 8px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #f0ece3;
+  color: #483434;
+  font-weight: 700;
+  border-color: #c7b198;
+  box-shadow: 5px 5px #c7b198;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}

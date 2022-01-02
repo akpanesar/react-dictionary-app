@@ -1,10 +1,44 @@
-.dictionary {
-  font-family: "Twinkle Star", cursive;
+.dictionary section {
+  backdrop-filter: opacity(5%);
+  text-align: left;
+  color: #483434;
+  background: rgba(255, 255, 255, 0.6);
+  max-width: 800px;
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: auto;
 }
-.dictionary h1 h2 {
-  font-family: "Rye", cursive;
+
+.dictionary h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 800;
 }
 
 .dictionary p {
   font-size: 20px;
+}
+
+.dictionary .btn {
+  background-color: #f0ece3;
+  color: #483434;
+  font-weight: 700;
+  border-color: #c7b198;
+  box-shadow: 5px 5px #c7b198;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+.dictionary .form-control {
+  background: #f0ece3;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+.dictionary .form-control:focus {
+  background: #f0ece3;
+  border-color: #c7b198;
+  box-shadow: 5px 5px #c7b198;
 }
